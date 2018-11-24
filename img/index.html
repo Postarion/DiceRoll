@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    body{
+        margin-top: 70px;
+        background: #333333;
+        color: #ffffff;
+    }
+    p{
+    	margin-top: 20px;
+    }
+    .card{
+        background-color: #2d2f41;
+        height: 80px;
+        width: 80px;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    .input-group {
+    margin-bottom: 10px;
+    height: 80px;
+    }
+    
+    .input-group-addon {
+    border-radius: 0.5em !important;
+    width: 100%;
+    background-color: #2d2f41;
+    height: 40px;
+    }
+    form{
+        width: 120%;
+    }
+    #result1, #result2, #result3{
+        width: 60%;
+    }
+    .wynik{
+        width: 30%;
+        text-align: center;
+    }
+    </style>
+    <title>DiceRoll</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="display-4 text-center mb-4">
+                    Dice Roll
+                </h1>
+                <form>
+                    <div class="form-group">
+                        <div class="form-inline mb-4">
+                                <img id="d4" src= "img/d4.jpg">
+                                <div id="result1">
+                                        <div class="card text-center">      
+                                            <p id="d4Tekst"></p>
+                                        </div>
+                                </div>   
+                        </div> 
+                        
+                        <div class="form-inline mb-4">
+                            <img id="d6" src= "img/d6.jpg">
+                            <div id="result2">
+                                    <div class="card text-center">      
+                                    	<p id="d6Tekst"></p>
+                                    </div>
+                            </div>
+                        </div>
+
+                   		<div class="form-inline mb-4">
+                            <img id="d10" src= "img/d10.jpg">
+                            <div id="result3">
+                                    <div class="card text-center">      
+                                    	<p id="d10Tekst"></p>
+                                    </div>
+                            </div>
+                        </div>  
+                     </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   <script src="main.js"></script>    
+</body>
+</html>

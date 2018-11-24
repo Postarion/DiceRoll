@@ -1,0 +1,36 @@
+body{
+        margin-top: 70px;
+        background: #333333;
+        color: #ffffff;
+    }
+    p{
+    	margin-top: 20px;
+    }
+    .card{
+        background-color: #2d2f41;
+        height: 80px;
+        width: 80px;
+        font-size: 150%;
+        font-weight: bold;
+    }
+    .input-group {
+    margin-bottom: 10px;
+    height: 80px;
+    }
+    
+    .input-group-addon {
+    border-radius: 0.5em !important;
+    width: 100%;
+    background-color: #2d2f41;
+    height: 40px;
+    }
+    form{
+        width: 100%;
+    }
+    #result1, #result2, #result3, #result4, #result5 #result6{
+        width: 100px;
+    }
+    .wynik{
+        width: 30%;
+        text-align: center;
+    }
